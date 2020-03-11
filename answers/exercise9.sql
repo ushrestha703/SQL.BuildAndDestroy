@@ -1,0 +1,2 @@
+USE myNewDB;
+SELECT * FROM Students WHERE NOT City = 'Philadelphia';

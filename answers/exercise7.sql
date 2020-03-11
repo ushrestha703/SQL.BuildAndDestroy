@@ -1,5 +1,5 @@
 
 ALTER TABLE Users
-DROP COLUMN Birthday;
+    DROP COLUMN Birthday;
 
 SELECT * FROM Users;
