@@ -1,0 +1,11 @@
+USE myNewDB;
+SHOW TABLES;
+CREATE TABLE Users (
+    UserID INT,
+    LastName VARCHAR(50),
+    FirstName VARCHAR(50),
+    Address VARCHAR(200),
+    City VARCHAR(100));
+SHOW TABLES;
+SELECT * FROM Users;
+TRUNCATE TABLE Users;

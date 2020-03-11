@@ -1,0 +1,10 @@
+CREATE DATABASE myNewDB;
+SHOW DATABASES;
+USE myNewDB;
+CREATE TABLE Users (
+    UserID INT,
+    LastName VARCHAR(50),
+    FirstName VARCHAR(50),
+    Address VARCHAR(200),
+    City VARCHAR(100));
+
